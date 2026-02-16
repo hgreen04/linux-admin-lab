@@ -1,4 +1,5 @@
-# Linux Administration Lab
+# Linux Administration & Cloud Operations Lab
+
 
 Production-style Linux system administration and AWS infrastructure practice.
 
@@ -6,13 +7,19 @@ Production-style Linux system administration and AWS infrastructure practice.
 
 ## Overview
 
-This repository documents hands-on Linux administration exercises designed to simulate real-world system administration tasks.
+## Real-World Simulation
 
-Environment:
-- RHEL / Ubuntu virtual machines
-- AWS EC2 instances
-- Local lab via VirtualBox
-- SSH remote management
+This lab simulates production-style system administration tasks including:
+
+- Provisioning and managing Linux servers
+- Implementing secure SSH configurations
+- Configuring user access controls (least privilege)
+- Managing system services and logs
+- Troubleshooting CPU, memory, and network issues
+- Deploying AWS EC2 instances within custom VPC environments
+
+The goal is to mirror real-world infrastructure support and DevOps environments.
+
 
 ---
 
@@ -52,6 +59,23 @@ Environment:
 - Configured basic firewall rules
 
 ---
+
+---
+
+## DevOps Progression Plan
+
+Planned next phases of this lab:
+
+- Implement CI/CD pipeline using GitHub Actions
+- Provision infrastructure using Terraform
+- Automate system configuration using Bash scripts
+- Integrate monitoring with AWS CloudWatch and Grafana
+- Containerize applications using Docker
+
+The objective is to transition from system administration tasks into full DevOps workflow automation.
+
+
+
 
 ## Current Focus
 
